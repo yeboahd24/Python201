@@ -1,0 +1,7 @@
+From: Author <author@example.com>
+To: Recipient <recipient@example.com>
+Subject: Sample message 1
+
+This is the body.
+From (will not be escaped).
+There are 3 lines.

@@ -1,0 +1,16 @@
+From MAILER-DAEMON Thu Dec 17 18:27:42 2020
+From: Author <author@example.com>
+To: Recipient <recipient@example.com>
+Subject: Sample message 1
+
+This is the body.
+>From (will not be escaped).
+There are 3 lines.
+
+From MAILER-DAEMON Thu Dec 17 18:27:42 2020
+From: Author <author@example.com>
+To: Recipient <recipient@example.com>
+Subject: Sample message 2
+
+This is the second body.
+
