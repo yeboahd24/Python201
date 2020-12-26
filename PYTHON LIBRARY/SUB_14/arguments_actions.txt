@@ -1,0 +1,11 @@
+Any of six built-in actions can be triggered when an argument is encountered:
+store Save the value, after optionally converting it to a different type. This is the default
+action taken if none is specified explicitly.
+store_const Save a value defined as part of the argument specification, rather than a value
+that comes from the arguments being parsed. This is typically used to implement
+command-line flags that are not boolean values.
+store_true/store_false Save the appropriate boolean value. These actions are used to
+implement Boolean switches.
+append Save the value to a list. Multiple values are saved if the argument is repeated.
+append_const Save a value defined in the argument specification to a list.
+version Print the version details about the program and then exit.
